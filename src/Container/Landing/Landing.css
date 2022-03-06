@@ -1,0 +1,48 @@
+.lcont{
+    display: flex;
+    min-height: 90vh;
+    justify-content: space-between;
+    align-items: center;
+    color: #eee2ee;
+    font-family: "Bangers",cursive;
+    padding: 0 32px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+.Left{
+    text-align: center;
+    padding: 42px 0;
+}
+.lheader{
+    font-size: 92px;
+    letter-spacing: 4px;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+.Typewrite{
+    font-size: 64px;
+    letter-spacing: 0px;
+
+}
+.flash{
+    width: 50vw;
+}
+.Right{
+
+}
+@media screen and (max-width:800px) {
+    .lcont{
+        flex-direction:column;
+        align-items: center;
+    }
+    .flash{
+        width: 80vw;
+    }
+    .lheader{
+        margin-top: 32px;
+        text-align: center;
+    }
+    .Typewrite{
+        text-align: center;
+    }
+}

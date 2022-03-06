@@ -1,0 +1,32 @@
+.logo{
+    width: 40px;
+}
+.Ncontain{
+    display: flex;
+    height: 72px;
+    align-items: center;
+    background-color: #1d2020;
+    justify-content: space-between;
+    z-index: 99;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.flash-text{
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-family: "Bangers",cursive;
+    color: aliceblue;
+    box-shadow: 0 1px 3px  gray;
+}
+.right{
+    margin-right: 40px;
+}
+.navlink{
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 32px;
+    font-family: "Bangers",cursive;
+    color: aliceblue;
+}

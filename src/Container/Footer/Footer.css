@@ -1,0 +1,14 @@
+.Fcont{
+    display: flex;
+    justify-content: center;
+    background-color: #1d2020;
+    margin: 0;
+    z-index: 99;
+}
+.flink{
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 26px;
+    margin: 5px;
+}
